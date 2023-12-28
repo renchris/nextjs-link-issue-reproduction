@@ -45,9 +45,9 @@ export default function Home() {
           className={styles.card}
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Link 1 <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Click to go to /link-1</p>
         </a>
 
         <a
@@ -55,9 +55,9 @@ export default function Home() {
           className={styles.card}
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Link 2 <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Click to go to /link-2</p>
         </a>
 
         <a
@@ -65,20 +65,20 @@ export default function Home() {
           className={styles.card}
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Link 3 <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>Click to go to /link-3</p>
         </a>
 
         <a
-          href="/link-4"
+          href="/"
           className={styles.card}
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Home <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Click to go to /
           </p>
         </a>
       </div>
